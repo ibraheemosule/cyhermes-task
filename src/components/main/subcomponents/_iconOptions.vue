@@ -23,30 +23,33 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.row {
-  color: #808080cb;
-  text-decoration: none;
-  span {
-    font: {
-      size: 80%;
-      weight: 600;
+.col-sm-4 {
+  margin-bottom: 2vh;
+  .row {
+    color: #808080cb;
+    text-decoration: none;
+    span {
+      font: {
+        size: 80%;
+        weight: 600;
+      }
+    }
+    .image {
+      display: flex;
+      justify-content: flex-end;
+      align-items: start;
+      img {
+        max-width: 60%;
+        max-height: auto;
+      }
+    }
+    .text {
+      display: flex;
+      align-items: center;
     }
   }
-  .image {
-    display: flex;
-    justify-content: flex-end;
-    align-items: start;
-    img {
-      max-width: 60%;
-      max-height: auto;
-    }
+  .row:hover {
+    background-color: #fffae5;
   }
-  .text {
-    display: flex;
-    align-items: center;
-  }
-}
-.row:hover {
-  background-color: #fffae5;
 }
 </style>

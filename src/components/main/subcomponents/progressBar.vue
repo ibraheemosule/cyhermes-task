@@ -47,12 +47,12 @@ div.row {
       }
       font: {
         weight: 700;
-        size: 70%;
+        size: 90%;
       }
     }
     p {
       font: {
-        size: 70%;
+        size: 80%;
         weight: 700;
       }
       small {

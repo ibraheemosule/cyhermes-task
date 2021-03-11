@@ -71,7 +71,7 @@ export default {};
       text-shadow: 1px 0px rgba(128, 128, 128, 0.24);
       font: {
         weight: 700;
-        size: 80%;
+        size: 85%;
       }
     }
     .premium {
@@ -86,7 +86,7 @@ export default {};
         margin: 0 2% 0 0;
         font: {
           weight: 800;
-          size: 70%;
+          size: 85%;
         }
       }
       margin-right: 15px;
@@ -118,20 +118,20 @@ export default {};
     p {
       font: {
         weight: 500;
-        size: 70%;
+        size: 80%;
       }
     }
     fieldset {
       border-top: 1px dashed #4982ff;
       margin: 2vmin 0 0 0;
       legend {
-        width: 60px;
+        width: 70px;
         margin-left: 0;
       }
       h6 {
         margin-top: 7px;
         font: {
-          size: 40%;
+          size: 50%;
           weight: 700;
         }
       }
@@ -141,7 +141,7 @@ export default {};
         margin: 0;
         li {
           font: {
-            size: 60%;
+            size: 70%;
             weight: 700;
           }
         }

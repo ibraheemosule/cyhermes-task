@@ -43,7 +43,7 @@ export default {};
       text-shadow: 1px 0px rgba(128, 128, 128, 0.24);
       font: {
         weight: 700;
-        size: 80%;
+        size: 100%;
       }
     }
   }
@@ -55,7 +55,7 @@ export default {};
       margin: 10px 0 0 0;
       color: #4982ff;
       font: {
-        size: 80%;
+        size: 90%;
       }
     }
     h4 {

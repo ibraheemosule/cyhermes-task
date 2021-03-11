@@ -46,7 +46,7 @@ export default {};
       margin: 0;
       li {
         margin-top: 15px;
-        font-size: 80%;
+        font-size: 90%;
         a {
           cursor: pointer;
           display: block;
@@ -79,7 +79,7 @@ export default {};
       color: #a2a1a2;
       font: {
         weight: 500;
-        size: 70%;
+        size: 90%;
       }
     }
     img {

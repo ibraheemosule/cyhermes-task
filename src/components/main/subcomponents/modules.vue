@@ -56,7 +56,7 @@ export default {
         color: #aaa9aa;
         font: {
           weight: 700;
-          size: 50%;
+          size: 70%;
         }
       }
     }

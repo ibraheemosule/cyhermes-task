@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 @media (min-width: 576px) {
   .container-fluid {
