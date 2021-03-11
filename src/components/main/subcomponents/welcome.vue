@@ -2,13 +2,13 @@
   <header class="row">
     <div class="col-sm-8">
       <h6><small>HEY, TERRY</small></h6>
-      <h4>Start your <i>30 days</i> Trial</h4>
+      <h3>Start your <i>30 days</i> Trial</h3>
       <p><small>select your preferred package below</small></p>
     </div>
     <div class="col-sm-4">
       <div>
         <h6><small>NGN</small></h6>
-        <h4>1,999,999</h4>
+        <h3>1,999,999</h3>
         <p>Total <small>(EXCLUDES VAT)</small></p>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {};
         }
       }
     }
-    h4 {
+    h3 {
       font-weight: 900;
       color: #222021;
       i {
@@ -58,7 +58,7 @@ export default {};
         size: 90%;
       }
     }
-    h4 {
+    h3 {
       letter-spacing: -1px;
       font-weight: bolder;
       margin: 0;
