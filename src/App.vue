@@ -13,8 +13,13 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 body {
   font-family: "Roboto", sans-serif;
+}
+@media (min-width: 576px) {
+  .container-fluid {
+    padding-left: 0;
+  }
 }
 </style>

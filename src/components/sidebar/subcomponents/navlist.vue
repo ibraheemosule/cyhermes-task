@@ -46,6 +46,7 @@ export default {};
       margin: 0;
       li {
         margin-top: 15px;
+        font-size: 80%;
         a {
           cursor: pointer;
           display: block;
@@ -55,6 +56,9 @@ export default {};
           small {
             font-weight: 700;
           }
+        }
+        a:hover {
+          color: white;
         }
       }
       li.dashed {
@@ -67,7 +71,7 @@ export default {};
   }
   .quote {
     position: relative;
-    margin-top: 90%;
+    margin-top: 55vh;
     padding: 10% 25%;
     border: 1px solid #4e4d4d;
     border-radius: 15px;
@@ -79,8 +83,8 @@ export default {};
       }
     }
     img {
-      max-width: 70%;
-      max-height: 70%;
+      max-width: 4vmax;
+      max-height: auto;
       position: absolute;
       top: 20%;
       left: -6%;
@@ -92,7 +96,7 @@ export default {};
 }
 @media (max-width: 576px) {
   .quote {
-    margin-top: 20% !important;
+    margin-top: 30% !important;
   }
 }
 </style>

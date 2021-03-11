@@ -45,7 +45,7 @@ export default {};
   .uncolored {
     padding: {
       top: 10%;
-      right: 10%;
+      left: 5%;
     }
     box-shadow: 0 20px 20px -2px #bfe4f062, -20px 0 20px -2px #bfe4f062;
     .yellowColor {
@@ -125,7 +125,7 @@ export default {};
       border-top: 1px dashed #4982ff;
       margin: 2vmin 0 0 0;
       legend {
-        width: 20%;
+        width: 60px;
         margin-left: 0;
       }
       h6 {

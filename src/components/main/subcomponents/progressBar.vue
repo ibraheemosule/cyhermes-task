@@ -4,6 +4,10 @@
       <h6>Add more users</h6>
       <p>NGN99,999 <small>per user</small></p>
     </div>
+    <div class="col-12 progress-value">
+      <span>0</span>
+      <span class="value"> 100</span><span style="float: right">>100</span>
+    </div>
     <div class="col-12">
       <div class="progress">
         <div
@@ -26,6 +30,15 @@ export default {};
 div.row {
   margin-top: 5px;
   color: #929192;
+  .progress-value {
+    color: black;
+    font-size: 60%;
+    .value {
+      margin: 0 0 10px 8%;
+      font-size: 120%;
+      color: #4982ff;
+    }
+  }
   .col-12 {
     h6 {
       margin: {

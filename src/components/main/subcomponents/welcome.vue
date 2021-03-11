@@ -53,14 +53,20 @@ export default {};
     justify-content: flex-end;
     h6 {
       margin: 10px 0 0 0;
+      color: #4982ff;
+      font: {
+        size: 80%;
+      }
     }
     h4 {
       letter-spacing: -1px;
       font-weight: bolder;
       margin: 0;
+      color: #4982ff;
     }
     p {
       margin: 0;
+      margin-bottom: 5vh;
       color: rgba(0, 0, 0, 0.897);
       font: {
         weight: 700;
