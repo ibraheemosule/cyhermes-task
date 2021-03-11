@@ -20,6 +20,7 @@
     </nav>
   </div>
   <div class="row quote">
+    <img :src="require('@/assets/image/quote.png')" alt="quote" />
     <blockquote
       cite="https://www.brainyquote.com/quotes/winston_churchill_124653"
     >
@@ -36,7 +37,7 @@ export default {};
 <style lang="scss" scoped>
 .row {
   nav {
-    color: rgb(175, 175, 175);
+    color: #989797;
     font-weight: 600;
     width: 100%;
     ul {
@@ -57,7 +58,7 @@ export default {};
         }
       }
       li.dashed {
-        color: rgba(255, 255, 0, 0.822);
+        color: #ffca00;
       }
       li.active {
         color: white;
@@ -65,17 +66,33 @@ export default {};
     }
   }
   .quote {
+    position: relative;
     margin-top: 90%;
     padding: 10% 25%;
-    border: 1px solid gray;
+    border: 1px solid #4e4d4d;
     border-radius: 15px;
     blockquote {
-      color: white;
+      color: #a2a1a2;
       font: {
         weight: 500;
         size: 70%;
       }
     }
+    img {
+      max-width: 70%;
+      max-height: 70%;
+      position: absolute;
+      top: 20%;
+      left: -6%;
+      background: #222021;
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .quote {
+    margin-top: 20% !important;
   }
 }
 </style>

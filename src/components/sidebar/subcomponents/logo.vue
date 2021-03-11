@@ -1,15 +1,13 @@
 <template>
   <div class="row">
     <div class="logo">
-    <img :src="require('@/assets/image/logo.png')" alt="cyhermes-logo" />
+      <img :src="require('@/assets/image/logo.png')" alt="cyhermes-logo" />
     </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>

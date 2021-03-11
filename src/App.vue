@@ -1,22 +1,20 @@
 <template>
-  <div class="container">
-    <Main />
+  <div class="container-fluid">
+    <page />
   </div>
 </template>
 
 <script>
-import Main from "./components/main.vue";
+import page from "./components/page.vue";
 
 export default {
   name: "App",
-  components: { Main }
+  components: { page }
 };
 </script>
 
 <style lang="scss">
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 </style>

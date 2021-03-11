@@ -20,9 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .col-sm-4 {
-  background: rgba(24, 24, 24, 0.897);
+  background: #222021;
   padding: 5%;
-  height: 100%;
-  position: relative;
 }
 </style>
