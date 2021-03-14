@@ -28,7 +28,7 @@ export default {};
 
 <style lang="scss" scoped>
 div.row {
-  margin-top: 5px;
+  margin-top: 5px !important;
   color: #929192;
   .progress-value {
     color: black;
@@ -71,8 +71,5 @@ div.row {
 //overwriting bootstrap conflicting style
 div.row[data-v-5259d527] {
   margin-top: 5px;
-}
-div.row[data-v-fe6aa1f2] {
-  margin-top: 0 !important;
 }
 </style>
