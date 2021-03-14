@@ -43,7 +43,7 @@ div.row {
     h6 {
       margin: {
         bottom: 0;
-        top: 15px;
+        top: 0px;
       }
       font: {
         weight: 700;
