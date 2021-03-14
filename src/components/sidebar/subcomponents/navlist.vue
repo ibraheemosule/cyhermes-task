@@ -71,7 +71,7 @@ export default {};
   }
   .quote {
     position: relative;
-    margin-top: 135%;
+    margin-top: 60vh;
     padding: 10% 25%;
     border: 1px solid #4e4d4d;
     border-radius: 15px;

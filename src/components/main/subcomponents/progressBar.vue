@@ -73,6 +73,6 @@ div.row[data-v-5259d527] {
   margin-top: 5px;
 }
 div.row[data-v-fe6aa1f2] {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 </style>
